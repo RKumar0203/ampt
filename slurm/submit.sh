@@ -1,5 +1,5 @@
 #!/bin/sh
-njobs=500
+njobs=10
 for i in `seq 0 $(($njobs-1))`
 do
 

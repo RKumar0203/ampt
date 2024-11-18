@@ -7,9 +7,9 @@ echo $SLURM_JOB_ID
 echo $SLURM_JOB_NAME
 echo $SLURM_JOB_NODELIST
 
-cd /scratch/tuos/models/ampt/slurm/v26/ppb01/jb0
+cd /scratch/<path to your slurm directory>/jb0
 
-module load PGI
+module load gcc/12.2.0
 
 bash exec.sh
 
